@@ -1,0 +1,15 @@
+Relasi antar Kelas/Tabel:
+
+User dapat memiliki banyak Project (1..*)
+
+Project memiliki banyak Board (1..*)
+
+Board memiliki banyak List (1..*)
+
+List memiliki banyak Card (1..*)
+
+Card dapat di-assign ke User (many-to-many)
+
+Project memiliki banyak Sprint (1..*)
+
+Client memberi banyak Feedback (1..*) terhadap Project
